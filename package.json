@@ -1,0 +1,19 @@
+{
+  "name": "hapi-microservices",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "RohitRox",
+  "license": "MIT",
+  "dependencies": {
+    "glue": "^5.0.0",
+    "good": "^8.1.1",
+    "good-console": "^7.1.0",
+    "good-squeeze": "^5.1.0",
+    "hapi": "^17.4.0",
+    "inert": "^5.1.0",
+    "nodemon": "^1.17.4"
+  },
+  "scripts": {
+    "start": "nodemon ./server/index.js"
+  }
+}
